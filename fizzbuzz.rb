@@ -5,4 +5,8 @@ def fizzbuzz
   elsif int % 5 == 0
     output += "Buzz"
   end
+  if output == ""
+    return nil
+  end
+  return output
 end
